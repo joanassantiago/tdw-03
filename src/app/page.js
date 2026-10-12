@@ -19,7 +19,8 @@ export default function Home() {
             <code className={styles.code}>page.js</code> file.
           </h1>
           <p>
-            TU ERAS AQUELA QUE EU MAIS QUERIA{" "}
+            TU ERAS AQUELA QUE EU MAIS QUERIA PARA TE DAR ALGUM CONFORTO E
+            COMPANHIA{" "}
             <a
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               target="_blank"
