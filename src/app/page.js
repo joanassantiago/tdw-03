@@ -19,7 +19,7 @@ export default function Home() {
             <code className={styles.code}>page.js</code> file.
           </h1>
           <p>
-            Looking for a starting point or more instructions? Head over to{" "}
+            TU ERAS AQUELA QUE EU MAIS QUERIA{" "}
             <a
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               target="_blank"
