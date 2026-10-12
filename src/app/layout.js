@@ -19,7 +19,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer>
+          built from {process.env.NEXT_PUBLIC_SHA?.slice(0, 7) ?? "local"}
+        </footer>
+      </body>
     </html>
   );
 }

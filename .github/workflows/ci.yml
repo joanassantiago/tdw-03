@@ -48,6 +48,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+        env:
+          NEXT_PUBLIC_SHA: ${{ github.sha }}
       - uses: actions/upload-artifact@v5
         with:
           name: site
